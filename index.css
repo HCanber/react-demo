@@ -1,0 +1,11 @@
+@keyframes disabling {
+	to {
+		opacity: 0.5;
+		transform:scale(0,0);
+	}
+}
+button.btn-primary[disabled] {
+    animation-name: disabling;
+    animation-duration: 0.2s;
+		animation-fill-mode: forwards;
+}
