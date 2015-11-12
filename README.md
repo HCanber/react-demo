@@ -4,6 +4,7 @@
 git clone https://github.com/HCanber/react-demo.git
 cd react-demo
 npm install
+npm install -g webpack webpack-dev-server
 ```
 
 ##Run example app
